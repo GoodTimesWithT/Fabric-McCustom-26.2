@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Deepsteel",
+  "key": {
+    "D": "mccustom:deepsteel_ingot"
+  },
+  "pattern": [
+    "DDD",
+    "DDD"
+  ],
+  "result": {
+    "id": "mccustom:deepsteel_bars"
+  }
+}

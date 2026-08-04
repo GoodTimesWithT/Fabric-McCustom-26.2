@@ -1,0 +1,30 @@
+{
+  "item.mccustom.deepsteel": "Deepsteel",
+  "item.mccustom.deepsteel_ingot": "Deepsteel Ingot",
+  "item.mccustom.deepsteel_helmet": "Deepsteel Helmet",
+  "item.mccustom.deepsteel_chestplate": "Deepsteel Chestplate",
+  "item.mccustom.deepsteel_leggings": "Deepsteel Leggings",
+  "item.mccustom.deepsteel_boots": "Deepsteel Boots",
+  "item.mccustom.anchor": "Anchor",
+
+
+  "block.mccustom.deepsteel_block": "Block of Deepsteel",
+  "block.mccustom.deepscrap": "Deepscrap",
+  "block.mccustom.cut_deepsteel_block": "Cut Deepsteel Block",
+  "block.mccustom.cut_deepsteel_stairs": "Cut Deepsteel Stairs",
+  "block.mccustom.cut_deepsteel_slab": "Cut Deepsteel Slab",
+  "block.mccustom.deepsteel_grate": "Deepsteel Grate",
+  "block.mccustom.deepsteel_door": "Deepsteel Door",
+  "block.mccustom.deepsteel_trapdoor": "Deepsteel Trapdoor",
+  "block.mccustom.cut_deepsteel_wall": "Cut Deepsteel Wall",
+  "block.mccustom.deepsteel_bars": "Deepsteel Bars",
+
+  "advancements.mccustom.root.title": "McCustom 1.0 \"Depths of Exploration\"",
+  "advancements.mccustom.root.description": "Explore the Depths in McCustom 1.0 ",
+
+  "advancements.mccustom.deepsteel.title": "Deepsteel",
+  "advancements.mccustom.deepsteel.description": "Craft a Deepsteel Ingot",
+
+  "advancements.mccustom.deepsteel_armor.title": "Deepsteel Diver",
+  "advancements.mccustom.deepsteel_armor.description": "Equip yourself with a full set of Deepsteel armor"
+}

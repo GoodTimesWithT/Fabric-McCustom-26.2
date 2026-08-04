@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "mccustom:deepsteel"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "mccustom:deepsteel"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "mccustom:deepsteel"
+      }
+    ]
+  }
+}

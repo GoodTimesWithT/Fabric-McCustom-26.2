@@ -1,0 +1,71 @@
+{
+  "parent": "minecraft:mccustommccustom/deepsteel",
+  "criteria": {
+    "has_deepsteel_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mccustom:deepsteel_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepsteel_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mccustom:deepsteel_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepsteel_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mccustom:deepsteel_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepsteel_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mccustom:deepsteel_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mccustom.deepsteel_armor.description"
+    },
+    "icon": {
+      "id": "mccustom:deepsteel_helmet"
+    },
+    "title": {
+      "translate": "advancements.mccustom.deepsteel_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepsteel_helmet"
+    ],
+    [
+      "has_deepsteel_chestplate"
+    ],
+    [
+      "has_deepsteel_leggings"
+    ],
+    [
+      "has_deepsteel_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

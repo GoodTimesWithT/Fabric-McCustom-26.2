@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Deepsteel",
+  "key": {
+    "#": "mccustom:cut_deepsteel_block"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "mccustom:cut_deepsteel_stairs"
+  }
+}

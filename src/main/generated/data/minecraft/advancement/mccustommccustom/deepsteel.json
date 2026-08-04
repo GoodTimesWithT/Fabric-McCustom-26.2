@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:mccustommccustom/root",
+  "criteria": {
+    "has_deepsteel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mccustom:deepsteel_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mccustom.deepsteel.description"
+    },
+    "icon": {
+      "id": "mccustom:deepsteel_ingot"
+    },
+    "title": {
+      "translate": "advancements.mccustom.deepsteel.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepsteel_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

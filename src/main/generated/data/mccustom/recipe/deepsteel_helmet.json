@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "Deepsteel",
+  "key": {
+    "D": "mccustom:deepsteel_ingot",
+    "d": "mccustom:deepsteel",
+    "g": "minecraft:glass_pane"
+  },
+  "pattern": [
+    "dDd",
+    "DgD",
+    "dDd"
+  ],
+  "result": {
+    "id": "mccustom:deepsteel_helmet"
+  }
+}

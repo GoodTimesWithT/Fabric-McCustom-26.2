@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mccustom:block/cut_deepsteel_slab"
+    },
+    "type=double": {
+      "model": "mccustom:block/cut_deepsteel_block"
+    },
+    "type=top": {
+      "model": "mccustom:block/cut_deepsteel_slab_top"
+    }
+  }
+}

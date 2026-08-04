@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_deepsteel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mccustom:deepsteel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancments/background/adventure",
+    "description": {
+      "translate": "advancements.mccustom.root.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "mccustom:deepsteel"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.mccustom.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepsteel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

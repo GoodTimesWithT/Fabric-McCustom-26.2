@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "Deepsteel",
+  "key": {
+    "D": "mccustom:deepsteel_ingot",
+    "d": "mccustom:deepsteel"
+  },
+  "pattern": [
+    "DDD",
+    "D D",
+    "d d"
+  ],
+  "result": {
+    "id": "mccustom:deepsteel_leggings"
+  }
+}

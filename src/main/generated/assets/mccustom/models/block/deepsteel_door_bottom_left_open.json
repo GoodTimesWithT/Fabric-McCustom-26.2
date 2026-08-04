@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "mccustom:block/deepsteel_door_bottom",
+    "top": "mccustom:block/deepsteel_door_top"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Deepsteel",
+  "ingredients": [
+    "mccustom:deepsteel",
+    "mccustom:deepsteel",
+    "mccustom:deepsteel",
+    "mccustom:deepsteel",
+    "minecraft:copper_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:copper_ingot"
+  ],
+  "result": {
+    "id": "mccustom:deepsteel_ingot"
+  }
+}

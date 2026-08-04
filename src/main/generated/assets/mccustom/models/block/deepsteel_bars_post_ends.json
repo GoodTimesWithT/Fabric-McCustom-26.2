@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_bars_post_ends",
+  "textures": {
+    "bars": "mccustom:block/deepsteel_bars",
+    "edge": "mccustom:block/deepsteel_bars"
+  }
+}

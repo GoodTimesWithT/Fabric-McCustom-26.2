@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "mccustom:block/cut_deepsteel_block",
+    "side": "mccustom:block/cut_deepsteel_block",
+    "top": "mccustom:block/cut_deepsteel_block"
+  }
+}
