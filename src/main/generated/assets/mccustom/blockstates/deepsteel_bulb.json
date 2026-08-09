@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "mccustom:block/deepsteel_bulb"
+    },
+    "powered=true": {
+      "model": "mccustom:block/deepsteel_bulb_on"
+    }
+  }
+}
