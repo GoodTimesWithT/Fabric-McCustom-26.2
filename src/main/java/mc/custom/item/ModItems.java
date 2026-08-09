@@ -61,6 +61,7 @@ public class ModItems {
             output.accept((ModBlocks.DEEPSTEEL_TRAPDOOR));
             output.accept((ModBlocks.CUT_DEEPSTEEL_WALL));
             output.accept((ModBlocks.DEEPSTEEL_BARS));
+            output.accept((ModBlocks.DEEPSTEEL_BULB));
         });
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.NATURAL_BLOCKS).register(output -> {

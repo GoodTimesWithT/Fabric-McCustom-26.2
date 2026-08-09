@@ -21,7 +21,7 @@ public class ModOverworldRegion extends Region {
     public void addBiomes(Registry<Biome> registry, Consumer<Pair<Climate.ParameterPoint,
                 ResourceKey<Biome>>> mapper) {
         this.addModifiedVanillaOverworldBiomes(mapper,modifiedVanillaOverworldBuilder -> {
-            modifiedVanillaOverworldBuilder.replaceBiome(Biomes.DEEP_LUKEWARM_OCEAN, ModBiomes.WARM_OCEAN_DEPTHS);
+            modifiedVanillaOverworldBuilder.replaceBiome(Biomes.LUKEWARM_OCEAN, ModBiomes.WARM_OCEAN_DEPTHS);
         });
     }
 }

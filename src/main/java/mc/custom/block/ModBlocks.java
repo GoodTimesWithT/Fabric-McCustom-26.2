@@ -1,6 +1,7 @@
 package mc.custom.block;
 
 import mc.custom.McCustom;
+import mc.custom.block.seprate_block_states.Deepsteel_Bulb;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -55,6 +56,10 @@ public class ModBlocks {
     public static final Block DEEPSTEEL_BARS = registerBlock("deepsteel_bars",
             properties -> new IronBarsBlock(properties.strength(4.0F)
                     .requiresCorrectToolForDrops().sound(SoundType.COPPER)));
+
+    public static final Block DEEPSTEEL_BULB = registerBlock("deepsteel_bulb",
+            properties -> new Deepsteel_Bulb(properties.strength(4.0F)
+                    .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(Deepsteel_Bulb.POWERED) ? 9 : 0).sound(SoundType.COPPER)));
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
         Block toregister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(McCustom.MOD_ID, name))));

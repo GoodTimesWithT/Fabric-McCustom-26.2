@@ -2,6 +2,7 @@ package mc.custom.datagen;
 
 import mc.custom.block.ModBlocks;
 import mc.custom.item.ModItems;
+import mc.custom.world.biome.ModBiomes;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootSubProvider;
 import net.minecraft.core.HolderLookup;
@@ -33,6 +34,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.DEEPSTEEL_TRAPDOOR);
         dropSelf(ModBlocks.CUT_DEEPSTEEL_WALL);
         dropSelf(ModBlocks.DEEPSTEEL_BARS);
+        dropSelf(ModBlocks.DEEPSTEEL_BULB);
 
         add(ModBlocks.CUT_DEEPSTEEL_SLAB, this::createSlabItemTable);
 

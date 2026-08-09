@@ -1,15 +1,18 @@
 package mc.custom.world.biome;
 
 import mc.custom.McCustom;
+import net.minecraft.core.HolderGetter;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.attribute.EnvironmentAttributes;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.MobSpawnSettings;
+import net.minecraft.world.level.levelgen.SurfaceRules;
 
 import static net.minecraft.data.worldgen.biome.OverworldBiomes.globalOverworldGeneration;
 
@@ -44,13 +47,13 @@ public class ModBiomes {
 
         return new Biome.BiomeBuilder().hasPrecipitation(true)
                 .downfall(0.4f)
-                .temperature(0.7f)
+                .temperature(0.6f)
                 .generationSettings(biomeBuilder.build())
                 .mobSpawnSettings(spawnBuilder.build())
                 .specialEffects((new BiomeSpecialEffects.Builder())
-                        .waterColor(0xaafeff)
-                        .grassColorOverride(0xe6bdfb)
-                        .foliageColorOverride(0xe6bdfb)
+                        .waterColor(0x20cccf)
+                        .grassColorOverride(0x82ac1e)
+                        .foliageColorOverride(0x93ac1e)
                         .build())
                 .build();
     }
