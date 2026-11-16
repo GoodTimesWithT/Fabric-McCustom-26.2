@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "Deepsteel",
+  "key": {
+    "D": "mccustom:deepsteel_ingot",
+    "d": "mccustom:deepsteel",
+    "g": "minecraft:glowstone"
+  },
+  "pattern": [
+    "dDd",
+    "DgD",
+    "dDd"
+  ],
+  "result": {
+    "id": "mccustom:deepsteel_bulb"
+  }
+}

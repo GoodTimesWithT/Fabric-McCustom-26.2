@@ -63,6 +63,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("Deepsteel")
                         .save(output);
 
+                shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DEEPSTEEL_BULB)
+                        .pattern("dDd")
+                        .pattern("DgD")
+                        .pattern("dDd")
+                        .define('D', ModItems.DEEPSTEEL_INGOT)
+                        .define('d', ModItems.DEEPSTEEL)
+                        .define('g', Items.GLOWSTONE)
+                        .unlockedBy(getHasName(ModItems.DEEPSTEEL_INGOT), has(ModItems.DEEPSTEEL_INGOT))
+                        .group("Deepsteel")
+                        .save(output);
+
                 shaped(RecipeCategory.COMBAT, ModItems.DEEPSTEEL_HELMET)
                         .pattern("dDd")
                         .pattern("DgD")
